@@ -56,7 +56,7 @@ echo $_POST['email'];
 
   <title>CodePen - Animated Login Form using Html &amp; CSS Only</title> 
 
-  <link rel="stylesheet" href="loginAdmin.css"> 
+  <link rel="stylesheet" href="../style/loginAdmin.css"> 
 
  </head> 
 
