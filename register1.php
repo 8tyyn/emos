@@ -22,7 +22,7 @@ if (isset($_POST['ok'])) {
 
     $BDD -> exec ("insert into account(name,lastname,tel,adress,email,password)values('$name','$lastname','$tel','$adress','$email','$password')");
 
-    header("Location: http://127.0.0.1/WEBSITE/EMOS/index.php");
+    header("Location: index.php");
 exit();
 }
 ?>
