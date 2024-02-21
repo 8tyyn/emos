@@ -1,5 +1,5 @@
 <?php
-    require_once "requireAuth.php";
+    require_once "../../auth/requireAuth.php";
 ?>
 
 <!DOCTYPE html>
@@ -14,53 +14,15 @@
 
     <title>Cyborg - Awesome HTML5 Template</title>
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
-
-    <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../../../../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../../../../assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="../../../../assets/css/owl.css">
+    <link rel="stylesheet" href="../../../../assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
-<!--
 
-TemplateMo 579 Cyborg Gaming
-
-https://templatemo.com/tm-579-cyborg-gaming
-
--->
   </head>
-  <?php
-error_reporting(E_ALL);
-ini_set('display_errors', 1);
-$servername = "localhost";
-$serveruser = "root";
-$password = "";
-try {
-    $BDD = new PDO("mysql:host=$servername;dbname=emos", $serveruser, $password);
-} catch (PDOException $e) {
-    echo "erreur" . $e->getMessage();
-}
-
-try {
-    $email = $_SESSION['email'];
-    if (!isset($_SESSION['email'])) {
-        header('location: login.html');
-    }
-    $query = "SELECT * FROM account WHERE email=:email";
-    $stmnt = $BDD->prepare($query);
-    $stmnt->bindParam(':email', $email);
-    $stmnt->execute();
-    $row = $stmnt->fetch(PDO::FETCH_ASSOC);
-
-} catch (PDOException $e) {
-    echo "" . $e->getMessage();
-}
-?>
-
-
 <body>
 
   <!-- ***** Preloader Start ***** -->
@@ -82,7 +44,7 @@ try {
         <div class="row">
             <div class="col-12">
                 <?php
-                  include "./src/client/components/navbar.php"; 
+                  include "../../components/navbar.php"; 
                 ?>
             </div>
         </div>
@@ -211,14 +173,14 @@ try {
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../../../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../../../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/tabs.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../../../../assets/js/isotope.min.js"></script>
+  <script src="../../../../assets/js/owl-carousel.js"></script>
+  <script src="../../../../assets/js/tabs.js"></script>
+  <script src="../../../../assets/js/popup.js"></script>
+  <script src="../../../../assets/js/custom.js"></script>
 
 
   </body>

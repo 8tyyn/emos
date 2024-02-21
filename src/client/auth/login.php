@@ -13,7 +13,6 @@ try {
 } catch (PDOException $e) {
     echo "erreur" . $e->getMessage();
 }
-echo $_POST['email'];
    $email = $_POST['email'];
    $password = $_POST['password'];
    if(!isset($_POST['password']) || !isset($_POST['email']) ) {
@@ -21,13 +20,14 @@ echo $_POST['email'];
         exit();
     }
     try {
-        $query = "SELECT * FROM account WHERE email=:email AND password=:password";
-    $stmnt = $BDD->prepare($query);
-    $stmnt->bindParam(':email',$email);
-    $stmnt->bindParam(':password',$password);
-    $stmnt->execute();
-    $rowCount = $stmnt->rowCount();
-    $res = $stmnt->fetch(PDO::FETCH_ASSOC);
+        $query = "SELECT * FROM vc_users_client WHERE utilisateur_email=:email AND password=:password";
+        $stmnt = $BDD->prepare($query);
+        $stmnt->bindParam(':email',$email);
+        $stmnt->bindParam(':password',$password);
+        $stmnt->execute();
+        $rowCount = $stmnt->rowCount();
+        $res = $stmnt->fetch(PDO::FETCH_ASSOC);
+        echo $res ; 
     }
     catch (Exception $e) {
         echo $e; 
@@ -36,11 +36,11 @@ echo $_POST['email'];
         print_r($res); 
         $_SESSION['email']= $email ;
         $_SESSION['password']=$password; 
-        header('location: index.php'); 
+        header('location: ../pages/home/index.php'); 
         exit(); 
     }
     else {
-        header('location: login.html'); 
+        header('location: ../pages/login.html'); 
 }   
 
 

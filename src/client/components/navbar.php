@@ -1,7 +1,8 @@
+
 <nav class="main-nav">
 
     <a href="index.php" class="logo">
-        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="assets/images/logoo.png" alt="">
+        &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<img src="../../../../assets/images/logoo.png" alt="">
     </a>
 
     <div class="search-input">
@@ -16,9 +17,10 @@
         <li><a href="#">Télécharger</a></li>
         <li><a href="profile.php">
                 <?php
+                
                 echo " " . $row['lastname'] . "";
                 ?>
-                <img src="assets/images/profile-header.jpg" alt="">
+                <img src="../../../../assets/images/profile-header.jpg" alt="">
             </a></li>
     </ul>
     <a class='menu-trigger'>

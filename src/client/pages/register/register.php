@@ -7,7 +7,6 @@ $password = "";
 
 try {
     $BDD = new PDO("mysql:host=$servername;dbname=emos", $serveruser, $password);
-    echo "connexion reussi";
 } catch (PDOException $e) {
     echo "erreur" . $e->getMessage();
 }
@@ -19,10 +18,16 @@ if (isset($_POST['ok'])) {
     $adress = $_POST['adress'];
     $email = $_POST['email'];
     $password = $_POST['password'];
+    $student = $_POST['student'];
 
-    $BDD -> exec ("insert into account(name,lastname,tel,adress,email,password)values('$name','$lastname','$tel','$adress','$email','$password')");
-
-    header("Location: index.php");
+    try{
+        $BDD -> exec ("INSERT INTO personne(name,lastname,tel,adress,email,password)values('$name','$lastname','$tel','$adress','$email','$password')");
+        $BDD-> exec("INSERT INTO utilisateur(email,isStudent)values('$email','$student')"); 
+    }
+    catch(Exception $e) {
+        header('Location : ../login.html');
+    }
+    header("Location: ../home/index.php");
 exit();
 }
 ?>
@@ -33,12 +38,12 @@ exit();
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Register</title>
-    <link rel="stylesheet" href="log-reg.css">
+    <link rel="stylesheet" href="../../style/login.css">
 </head>
 <body>
     <div class="login-box">
         <h2>Inscription</h2>
-        <form method="POST" action="register1.php" onsubmit="return validateForm();">
+        <form method="POST" onsubmit="return validateForm();">
             <div class="user-box">
                 <input type="text" name="name" id="1" required>
                 <label>Nom</label>
@@ -67,6 +72,12 @@ exit();
                 <input type="password" name="verifpassword" id="7" required>
                 <label>Verifier mot de passe</label>
             </div>
+            <div class="user-box">
+                <select name="student" id="">
+                    <option value="0">Teacher</option>
+                    <option value="1">Student</option>
+                </select>
+            </div>
             <button type="submit" name="ok" class="ok" href="#" onclick="validateForm()">
                 <span></span>
                 <span></span>
@@ -74,7 +85,7 @@ exit();
                 <span></span>
                 Register
             </button>
-            <button class="ok" type="reset">
+            <button class="ok" type="reset" >
                 <span></span>
                 <span></span>
                 <span></span>
