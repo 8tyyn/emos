@@ -46,10 +46,10 @@ try {
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../../../../../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../../../../../assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="../../../../../assets/css/owl.css">
+    <link rel="stylesheet" href="../../../../../assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -110,7 +110,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                   </style>
                   <div class="col-lg-8">                 
                     <div class="thumb">                   
-                      <img src="assets/images/video.png" alt="" style="border-radius: 23px; ">
+                      <img src="../../../../../assets/images/video.png" alt="" style="border-radius: 23px; ">
                       <a href="https://drive.google.com/file/d/17mzL3Kd6xWfa7EcU1fWRvwwX4RSHRJVI/view?usp=sharing" target="_blank"><i class="fa fa-play"></i></a>
                     </div>                 
                   </div>
@@ -153,7 +153,7 @@ https://templatemo.com/tm-579-cyborg-gaming
                     </div>
                     <center>
                     <div class="col-lg-4">
-                      <img src="assets/images/emos3.png" alt="" style="border-radius: 23px; margin-bottom: 30px;">
+                      <img src="../../../../assets/images/assets/images/emos3.png" alt="" style="border-radius: 23px; margin-bottom: 30px;">
                     </div>
                   </center>
                     <div class="col-lg-12">
@@ -182,7 +182,7 @@ https://templatemo.com/tm-579-cyborg-gaming
               </div>
               <div class="col-lg-6">
                 <div class="item">
-                  <img src="assets/images/voiture1.gif" alt="" class="templatemo-item" style="width: 200px;">
+                  <img src="../../../../assets/images/assets/images/voiture1.gif" alt="" class="templatemo-item" style="width: 200px;">
                   <h4>CarBot</h4><span>Transforme</span>
                   <ul>
                     <li><i class="fa fa-star"></i> 4.7</li>
@@ -192,7 +192,7 @@ https://templatemo.com/tm-579-cyborg-gaming
               </div>
               <div class="col-lg-6">
                 <div class="item">
-                  <img src="assets/images/emoss.gif" alt="" class="templatemo-item">
+                  <img src="../../../../assets/images/assets/images/emoss.gif" alt="" class="templatemo-item">
                   <h4>EMO</h4><span>Robot</span>
                   <ul>
                     <li><i class="fa fa-star"></i> 5</li>
@@ -202,7 +202,7 @@ https://templatemo.com/tm-579-cyborg-gaming
               </div>
               <div class="col-lg-6">
                 <div class="item">
-                  <img src="assets/images/vector-vector-robot.gif" alt="" class="templatemo-item">
+                  <img src="../../../../assets/images/assets/images/vector-vector-robot.gif" alt="" class="templatemo-item">
                   <h4>Vector</h4><span>Robot</span>
                   <ul>
                     <li><i class="fa fa-star"></i> 4.8</li>
@@ -212,7 +212,7 @@ https://templatemo.com/tm-579-cyborg-gaming
               </div>
               <div class="col-lg-6">
                 <div class="item">
-                  <img src="assets/images/mecanum_robot_car.gif" alt="" class="templatemo-item">
+                  <img src="../../../../assets/images/assets/images/mecanum_robot_car.gif" alt="" class="templatemo-item">
                   <h4>Mecanum</h4><span>Voiture</span>
                   <ul>
                     <li><i class="fa fa-star"></i> 3.6</li>
@@ -245,14 +245,14 @@ https://templatemo.com/tm-579-cyborg-gaming
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../../../../assets/images/vendor/jquery/jquery.min.js"></script>
+  <script src="../../../../assets/images/vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/tabs.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../../../../assets/images/assets/js/isotope.min.js"></script>
+  <script src="../../../../assets/images/assets/js/owl-carousel.js"></script>
+  <script src="../../../../assets/images/assets/js/tabs.js"></script>
+  <script src="../../../../assets/images/assets/js/popup.js"></script>
+  <script src="../../../../assets/images/assets/js/custom.js"></script>
 
 
   </body>

@@ -14,14 +14,14 @@
     <title>Cyborg - Awesome HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../../../../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../../../../assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="../../../../assets/css/owl.css">
+    <link rel="stylesheet" href="../../../../assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -101,7 +101,7 @@ try {
               <div class="main-profile ">
                 <div class="row">
                   <div class="col-lg-4">
-                    <img src="assets/images/profile2.jpg" alt="" style="border-radius: 23px;">
+                    <img src="../../../../assets/images/profile2.jpg" alt="" style="border-radius: 23px;">
                   </div>
                   <div class="col-lg-4 align-self-center">
                     <div class="main-info header-text">
@@ -150,14 +150,14 @@ try {
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../../../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../../../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/tabs.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../../../../assets/js/isotope.min.js"></script>
+  <script src="../../../../assets/js/owl-carousel.js"></script>
+  <script src="../../../../assets/js/tabs.js"></script>
+  <script src="../../../../assets/js/popup.js"></script>
+  <script src="../../../../assets/js/custom.js"></script>
 
 
   </body>

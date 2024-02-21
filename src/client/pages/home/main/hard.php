@@ -15,14 +15,14 @@
     <title>Cyborg - Awesome HTML5 Template</title>
 
     <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../../../../../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
 
 
     <!-- Additional CSS Files -->
-    <link rel="stylesheet" href="assets/css/fontawesome.css">
-    <link rel="stylesheet" href="assets/css/templatemo-cyborg-gaming.css">
-    <link rel="stylesheet" href="assets/css/owl.css">
-    <link rel="stylesheet" href="assets/css/animate.css">
+    <link rel="stylesheet" href="../../../../../assets/css/fontawesome.css">
+    <link rel="stylesheet" href="../../../../../assets/css/templatemo-cyborg-gaming.css">
+    <link rel="stylesheet" href="../../../../../assets/css/owl.css">
+    <link rel="stylesheet" href="../../../../../assets/css/animate.css">
     <link rel="stylesheet"href="https://unpkg.com/swiper@7/swiper-bundle.min.css"/>
 <!--
 
@@ -106,7 +106,7 @@ try {
                 <div class="owl-features owl-carousel">
                   <div class="item">
                     <div class="thumb">
-                      <img src="assets/images/programme2.gif" alt="">
+                      <img src="../../../../../assets/images/programme2.gif" alt="">
                       <div class="hover-effect">
                         <h6><a href="commande.php">voir le code</a></h6>
                       </div>
@@ -119,7 +119,7 @@ try {
                   </div>
                   <div class="item">
                     <div class="thumb">
-                      <img src="assets/images/programme4.gif" alt="">
+                      <img src="../../../../../assets/images/programme4.gif" alt="">
                       <div class="hover-effect">
                         <h6><a href="obstacle.php">voir le code</a></h6>
                       </div>
@@ -132,7 +132,7 @@ try {
                   </div>
                   <div class="item">
                     <div class="thumb">
-                      <img src="assets/images/programme5.gif" alt="">
+                      <img src="../../../../../assets/images/programme5.gif" alt="">
                       <div class="hover-effect">
                         <h6><a href="etoile.php">voir le code</a></h6>
                       </div>
@@ -145,7 +145,7 @@ try {
                   </div>
                   <div class="item">
                     <div class="thumb">
-                      <img src="assets/images/programme6.gif" alt="">
+                      <img src="../../../../../assets/images/programme6.gif" alt="">
                       <div class="hover-effect">
                         <h6><a href="suiveur.php">voir le code</a></h6>
                       </div>
@@ -167,7 +167,7 @@ try {
                 </div>
                 <ul>
                   <li>
-                    <img src="assets/images/commande.gif" alt="" class="templatemo-item">
+                    <img src="../../../../../assets/images/commande.gif" alt="" class="templatemo-item">
                     <h4>Commande</h4>
                     <h6>sb3</h6>
                     <span><i class="fa fa-star" style="color: yellow;"></i> 2</span>
@@ -177,7 +177,7 @@ try {
                     </div>
                   </li>
                   <li>
-                    <img src="assets/images/obstacle.gif" alt="" class="templatemo-item">
+                    <img src="../../../../../assets/images/obstacle.gif" alt="" class="templatemo-item">
                     <h4>éviteur des Obstacles</h4>
                     <h6>sb3</h6>
                     <span><i class="fa fa-star" style="color: yellow;"></i> 2.7</span>
@@ -187,7 +187,7 @@ try {
                     </div>
                   </li>
                   <li>
-                    <img src="assets/images/etoile.gif" alt="" class="templatemo-item">
+                    <img src="../../../../../assets/images/etoile.gif" alt="" class="templatemo-item">
                     <h4>étoile</h4>
                     <h6>sb3</h6>
                     <span><i class="fa fa-star" style="color: yellow;"></i> 1.2</span>
@@ -220,7 +220,7 @@ try {
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="thumb">
-                    <img src="assets/images/commande.gif" alt="">
+                    <img src="../../../../../assets/images/commande.gif" alt="">
                     <div class="hover-effect">
                       <div class="content">
                         <div class="live">
@@ -242,7 +242,7 @@ try {
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="thumb">
-                    <img src="assets/images/obstacle.gif" alt="">
+                    <img src="../../../../../assets/images/obstacle.gif" alt="">
                     <div class="hover-effect">
                       <div class="content">
                         <div class="live">
@@ -264,7 +264,7 @@ try {
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="thumb">
-                    <img src="assets/images/etoile.gif" alt="">
+                    <img src="../../../../../assets/images/etoile.gif" alt="">
                     <div class="hover-effect">
                       <div class="content">
                         <div class="live">
@@ -286,7 +286,7 @@ try {
               <div class="col-lg-3 col-sm-6">
                 <div class="item">
                   <div class="thumb">
-                    <img src="assets/images/suiveur.gif" alt="">
+                    <img src="../../../../../assets/images/suiveur.gif" alt="">
                     <div class="hover-effect">
                       <div class="content">
                         <div class="live">
@@ -334,14 +334,14 @@ try {
 
   <!-- Scripts -->
   <!-- Bootstrap core JavaScript -->
-  <script src="vendor/jquery/jquery.min.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.min.js"></script>
+  <script src="../../../../../vendor/jquery/jquery.min.js"></script>
+  <script src="../../../../../vendor/bootstrap/js/bootstrap.min.js"></script>
 
-  <script src="assets/js/isotope.min.js"></script>
-  <script src="assets/js/owl-carousel.js"></script>
-  <script src="assets/js/tabs.js"></script>
-  <script src="assets/js/popup.js"></script>
-  <script src="assets/js/custom.js"></script>
+  <script src="../../../../../assets/js/isotope.min.js"></script>
+  <script src="../../../../../assets/js/owl-carousel.js"></script>
+  <script src="../../../../../assets/js/tabs.js"></script>
+  <script src="../../../../../assets/js/popup.js"></script>
+  <script src="../../../../../assets/js/custom.js"></script>
 
 
   </body>
